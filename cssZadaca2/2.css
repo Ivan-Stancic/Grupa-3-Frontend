@@ -1,0 +1,29 @@
+nav > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul > li {
+    font-size: 25px;
+    display: inline-block;
+    width: 20%;
+    background-color: orange;
+    text-align: center;
+}
+
+nav > ul > li:hover {
+    background-color: darkorange;
+    color: white;
+    border-radius: 15px;
+}
+
+nav > ul > li:active {
+    background-color: orangered;
+}
+
+nav > ul > li > a {
+    line-height: 35px;
+    text-decoration: none;
+    color: inherit;
+}
