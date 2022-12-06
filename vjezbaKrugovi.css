@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .v1 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+  -webkit-animation-name: my-animation;
+          animation-name: my-animation;
+  -webkit-animation-duration: .6s;
+          animation-duration: .6s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes my-animation {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@keyframes my-animation {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+main .v2 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+  -webkit-animation-name: my-animation1;
+          animation-name: my-animation1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: initial;
+          animation-timing-function: initial;
+}
+
+@-webkit-keyframes my-animation1 {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    rotate: 360deg;
+    margin-top: 0;
+  }
+  to {
+    width: 80px;
+    height: 80px;
+    rotate: -360deg;
+    margin-top: 350px;
+  }
+}
+
+@keyframes my-animation1 {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    rotate: 360deg;
+    margin-top: 0;
+  }
+  to {
+    width: 80px;
+    height: 80px;
+    rotate: -360deg;
+    margin-top: 350px;
+  }
+}
+
+main .v3 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+  -webkit-animation-name: my-animation2;
+          animation-name: my-animation2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: initial;
+          animation-timing-function: initial;
+}
+
+@-webkit-keyframes my-animation2 {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    border-radius: 0;
+    rotate: 180deg;
+  }
+  to {
+    width: 100px;
+    height: 100px;
+    rotate: 360deg;
+  }
+}
+
+@keyframes my-animation2 {
+  from {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    border-radius: 0;
+    rotate: 180deg;
+  }
+  to {
+    width: 100px;
+    height: 100px;
+    rotate: 360deg;
+  }
+}
+
+main .v4 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+main .v5 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+main .v6 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+/*# sourceMappingURL=vjezbaKrugovi.css.map */

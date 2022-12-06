@@ -1,0 +1,50 @@
+@mixin animacija1 {
+    animation-name: a1;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+
+    @keyframes a1{
+        from {
+            transform: translate(0, -1000px);
+        }
+    
+        to {}
+    }
+}
+
+@mixin animacija2 {
+    animation-name: a2;
+    animation-delay: 3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+
+    @keyframes a2 {
+        from {
+            transform: translate(0, -1000px);
+        }
+    
+        to {}
+    }
+}
+
+
+@mixin animacija3 {
+    animation-name: a3;
+    animation-delay: 4.5;
+    animation-duration: 4.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+
+    @keyframes a3 {
+        from {
+            transform: translate(0, -1000px);
+        }
+    
+        to {}
+    }
+}
