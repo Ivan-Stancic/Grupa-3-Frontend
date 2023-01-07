@@ -5,3 +5,49 @@ for (i = 6; i <= 178; i++) {
         console.log(i);
     }
 }
+
+
+// ZADAĆA JS 2
+
+var listaOsoba =[
+    {
+        ime : 'Ivan',
+        godine : 39
+    },
+    {
+        ime : 'Pero',
+        godine : 35
+    },
+    {
+        ime : 'Štef',
+        godine : 30
+    },
+    {
+        ime : 'Joe',
+        godine : 44
+    },
+    {
+        ime : 'Dudek',
+        godine : 32
+    }
+]
+
+function dodajGodine() {
+    var rezultat = osoba.godine + 1;
+    return rezultat;
+}
+
+function prosjekGodina() {
+    var prosjek = 0;
+    for (var i = 0; i < listaOsoba.length; i++){
+        prosjek += listaOsoba[i].godine;
+    }
+    console.log(prosjek);
+    return prosjek / listaOsoba.length;
+}
+
+for(var osoba of listaOsoba) {
+    console.log(dodajGodine());
+}
+
+console.log("Prosjek godina je: " + prosjekGodina());

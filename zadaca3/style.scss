@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    border: 2px solid black;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border: 1.5px solid whitesmoke;
+}
+
+.visible {
+    visibility: visible;
+}
+
+
